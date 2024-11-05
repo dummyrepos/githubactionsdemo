@@ -1,4 +1,6 @@
 # This class will have all the methods for the calculator
+
+
 class Calculator:
     # This method will add two numbers
     def add(self, a, b):
