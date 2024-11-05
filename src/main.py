@@ -1,25 +1,68 @@
-# This class will have all the methods for the calculator
-
+""" This module will have calculator related functions"""
 
 class Calculator:
+    """_summary_
+
+    Returns:
+        _type_: _description_
+    """
     # This method will add two numbers
     def add(self, a, b):
+        """_summary_
+
+        Args:
+            a (_type_): _description_
+            b (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
         return a + b
 
     # This method will subtract two numbers
     def subtract(self, a, b):
+        """_summary_
+
+        Args:
+            a (_type_): _description_
+            b (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
         return a - b
 
     # This method will multiply two numbers
     def multiply(self, a, b):
+        """_summary_
+
+        Args:
+            a (_type_): _description_
+            b (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
         return a * b
 
     # This method will divide two numbers
     def divide(self, a, b):
+        """_summary_
+
+        Args:
+            a (_type_): _description_
+            b (_type_): _description_
+
+        Returns:
+            _type_: _description_
+        """
         return a / b
+
 
 # This is the main function that will run the calculator
 def main():
+    """_summary_
+    """
     # Create an instance of the Calculator class
     calc = Calculator()
 
@@ -56,6 +99,7 @@ def main():
 
     # Print a goodbye message
     print("Goodbye!")
+
 
 # This is the entry point of the program
 if __name__ == "__main__":
