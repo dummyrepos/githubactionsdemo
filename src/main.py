@@ -1,10 +1,7 @@
 """ This module will have calculator related functions"""
 
 class Calculator:
-    """_summary_
-
-    Returns:
-        _type_: _description_
+    """This is calculator
     """
     # This method will add two numbers
     def add(self, a, b):
